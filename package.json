@@ -1,0 +1,38 @@
+{
+  "name": "aastats",
+  "version": "1.0.0",
+  "description": "aa stat smart",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "prod": "webpack --config webpack.client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haiyan Yang",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "body-parser": "^1.19.0",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "compression": "^1.7.4",
+    "css-loader": "^5.2.6",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "ejs-loader": "^0.5.0",
+    "express": "^4.17.1",
+    "express-sanitizer": "^1.0.6",
+    "express-session": "^1.17.2",
+    "file-loader": "^6.2.0",
+    "helmet": "^4.6.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^1.6.0",
+    "nodemailer": "^6.6.2",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "terser-webpack-plugin": "^5.1.4",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-node-externals": "^3.0.0"
+  }
+}

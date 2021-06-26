@@ -1,0 +1,18 @@
+<%- include("./partials/header") %>
+
+	<div class="main">
+      <div class="content-width"> 
+    	  <h2>Who We Are</h2>
+    	  <p><%= content.who %></p>
+    	  <h2>About our Director</h2>
+          <div class="about-grid">
+              <div class="head-shot"><img src="/images/Statsmart.png" alt="Photo missing" /></div>
+        	  <p><%= content.director %></p>
+          </div>    
+        <p><%= content.publish1 %><span class="italic"><%= content.publish2 %></span><%= content.publish3 %><span class="italic"><%= content.publish4 %></span><%= content.publish5 %></p>          
+      </div>
+    </div>
+
+
+
+<%- include("./partials/footer") %>
