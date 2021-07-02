@@ -31,10 +31,10 @@ contentObj.cases = [
 
 // ABOUT US
 contentObj.about = {
-	who: 'Child psychiatrists in the San Francisco Bay area dedicated to helping '
-                 + 'schools maximize students’ academic and social potential by optimizing '
-                 + 'their mental well being, strengthening connections between schools and '
-                 + 'outside providers, and enhancing the effectiveness of classroom environments.',
+	who: 'Experienced statistician dedicated to helping health care industry by collaborating with '
+                 + 'client teams to write and implement study protocols and statistical analysis plans , supporting the '
+                 + 'statistical needs by providing expertise on methods, analysis and results presentation and interpretation, '
+                 + 'and tailoring our services precisely to the needs of our clients.',
     director: 'Dr. ',
     publish1: 'Dr. Lustig has published dozens of articles which can be found in: ',
     publish2: 'Journal of the '
