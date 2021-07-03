@@ -27,12 +27,15 @@ router.post('/send', function(req, res) {
 
 	// create reusable transporter object using the default SMTP transport
 	 let transporter = nodemailer.createTransport({
-	 	// host: 'mail.sonic.net',
+	 	// host: 'smtp.gmail.com',
 		  service: 'gmail',
-	    secure: true, // true for 465, false for other ports
+			// port: 465,
+	    // secure: true, // true for 465, false for other ports
 	    auth: {
+				// type: 'OAUTH2',
 	        user: process.env.EMAIL, 
-	        pass: process.env.PASSWORD
+	        pass: process.env.PASSWORD,
+					// acessToken: 'tqpwckjcpwsxbgnh'
 	    },
 	    tls:{
 	      rejectUnauthorized:false
@@ -41,9 +44,12 @@ router.post('/send', function(req, res) {
 
 	// setup email data with unicode symbols
 	let mailOptions = {
-	    from: '"AAStatsmart" <bluecoco@gmail.com>', // sender address
-	    to: req.body.email, // list of receivers
-	    bcc: 'bluecoco@gmail.com',
+	    // from: '"AAStatsmart" <jwu@alumni.unc.edu>', // sender address, i.e. your website email
+	    // from: '"AAStatsmart" <yhyrvbd@gmail.com>', // sender address, i.e. your website email
+	    from: '"AAStatsmart" <shenshaa@gmail.com>', // sender address, i.e. your website email			
+	    to: req.body.email, // list of receivers, i.e. user's email
+			// bcc: 'jwu@alumni.unc.edu', // bcc to you, website owner
+			bcc: 'shenshaa@gmail.com', // bcc to you, website owner			
 	    subject: 'AA Statsmart Contact Request', // Subject line
 	    html: output // html body
 	};
