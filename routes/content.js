@@ -32,29 +32,10 @@ contentObj.cases = [
 // ABOUT US
 contentObj.about = {
 	who: 'Experienced statistician dedicated to helping health care industry by collaborating with '
-                 + 'client teams to write and implement study protocols and statistical analysis plans , supporting the '
+                 + 'client teams to write and implement study protocols and statistical analysis plans, supporting the '
                  + 'statistical needs by providing expertise on methods, analysis and results presentation and interpretation, '
                  + 'and tailoring our services precisely to the needs of our clients.',
-    director: 'Dr. ',
-    publish1: 'Dr. Lustig has published dozens of articles which can be found in: ',
-    publish2: 'Journal of the '
-                 + 'American Academy of Child and Adolescent Psychiatry, Transcultural Psychiatry, '
-                 + 'Harvard Review of Psychiatry, International Journal of Social Psychiatry, '
-                 + 'Journal of Immigrant and Minority Health, Child and Adolescent Psychiatric Clinics '
-                 + 'of North America, Professional Psychology, General '            
-                 + 'Hospital Psychiatry, World Health Forum, Public Health Reports, '
-                 + 'General Hospital Psychiatry, World Health Forum, Public Health Reports, Psychiatric '
-                 + 'Services, Psychiatry Research, American Journal of Health Promotion, Archives of '
-                 + 'Pediatrics and Adolescent Medicine',
-    publish3: ', and several legal '
-                 + 'journals. He is the editor of the textbook ',
-    publish4: 'Advocacy Strategies for Health and '
-                 + 'Mental Health Professionals From Patients to Policies.',
-    publish5: ' In addition to school '
-                 + 'consultations, other current interests include the cross-cultural delivery of '
-                 + 'mental health care, child refugees, political asylum seekers and immigration judges, '
-                 + 'advocacy strategies, and managed care.'
-
+    director: 'Dr. '
 }
 
 module.exports = contentObj;
