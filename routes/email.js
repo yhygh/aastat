@@ -41,9 +41,9 @@ router.post('/send', function(req, res) {
 
 	// setup email data with unicode symbols
 	let mailOptions = {
-	    from: '"AAStatsmart" <ailyjj@gmail.com>', // sender address
+	    from: '"AAStatsmart" <bluecoco@gmail.com>', // sender address
 	    to: req.body.email, // list of receivers
-	    bcc: 'ailyjj@gmail.com',
+	    bcc: 'bluecoco@gmail.com',
 	    subject: 'AA Statsmart Contact Request', // Subject line
 	    html: output // html body
 	};

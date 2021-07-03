@@ -7,13 +7,12 @@
 	      <h2 class="email-head"><%= msg %></h2>
 	    <% } %>
 
-		<%# <form action="cgi/gdform.cgi" method="post">   %>
 		<form action="/email-us/send" 
 		      method="post"
 		      >
 			<input type="hidden" name="subject" value="Email from Website" />
 			<input type="hidden" name="redirect" value="email/emailus" />
-		    <P class="full small">Please enter your full name and email address (i.e. name@school.edu).</P>			
+		    <P class="full small">Please enter your full name and email address (i.e. name@abc.com).</P>			
 			<div>
 				<label>Name: </label>
 				<input type="text" name="name" />
